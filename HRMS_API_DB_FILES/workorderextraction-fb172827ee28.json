@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "workorderextraction",
+  "private_key_id": "fb172827ee28f91d7d3501fba23ff7e30f4884ec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCXfzhPDNb5Cwyz\ncH+fUluvCBVvY2k0q9i6XqZyG9h6TbpDX2XdURZ0w1qKHF/NaSePVPfBUpJA/deR\niphot4mb5cPSalpH6Rt4P9qdmz59U6huZ5h4By/vOVWDLtZO6XZU9NFT5PSiToJT\nTOoE7ncYp2bGmznreQ5Z/h8U3xXsjGJawR1nSMOcks2SSgUFMXGwxMDc23MpNgqn\nY2hW1F5z/bRX2z567GsfrZsAf02wWrZnLJ6HBZLxxkDxcSmTwYB40cPFRNZUgOYL\nqB5sQLWdVgfjPYdIjjilffYkLwIaY5x6QKMtZRJ4t4Hp0lZdF8x56XuyNX6UFxRS\nG5sdclj9AgMBAAECggEAGyQKlXbqaHGHU/paktNxY3kiRfNcXLhQuorMbPL6JGca\ncIl9uVmWmVKKPOX6b9Vf5fjF7hd55jTT0toulcwT1h8ipuawx+NGLZPa+ZNfbZp4\nOVdL5Gz9NHFkFX1lnXuL3IqDmfERtqY0CPJlln6WTY9oBTq39KyaWpsBPH7+8YKq\nQ6ormfX86y/QX3JAquJ+5RDekBTG+/gxxRpHi/WEVRtkCMYXvh0OPLZdOzpnkMUr\nXXmC7LOZvdjdijVHQ09oepRiSRTBuUjPY5xh9VXnc1HZtbJg/SLqkNbGKn7IGrrj\noXQJNWPRNKFdV0pBTKwI0O/y7XhKThk3uwkw9uWIrQKBgQDR1v0yR0BK8Enitfp/\nNOIowedOntTkpM6cJDGsKeK8FmWNFWWf0ThQLajQjLOpfyOuLyIxF+Xg7ajfoFPz\n3IbRZIOgMMue7TF300Vie+ob1xt5bxGo9JpwHv3Io6s+x/EHELxCeNLeKvW2gmG2\nlro190RjkSI1+8iMXeRHMLQZuwKBgQC40q+ijwu+nb9YHUtmN4ERbgfc7hXAq/lq\nKsGmD6jpaTjNOkImtwe3OCCG0039Y2nVExuI7JgQs2e5HqRXINrLd+ME6dtWoDqM\nq9IYoiyW029zwPwUwtlinn/Zv0oUGDAHuQWCDlvxcXAHyWRbgiI/sAu6c0sQHUF5\nZ7wt3/+wpwKBgQCRMPJscYR41Z4p8cRrdAnwLYqAicHAmpAi1aBRAYJSpiSJ4/43\nAKq4P3+JHXHKm5/yi8ZatbBnW8n3QZYVK8dU5vl0Q48AXhpWUKa3qAmqTcJC2akc\ngHLDlY3/389DV1DclKXOUI+HDa6KI9i8X7pkULzPL8K+G4L+LJEg+QAEtQKBgGJi\nzVpEuaTMBpraZVPRgiSMJSVnnC7HnWr1vcYvmeQ+vh0JwUMotbPD7hS3kVGsxR7H\nICZAhCaHylRSSnuTIsWjWTc5Yih3/RL7OEkis4fKoA7HkalfnCcSZs68NKwDwDWs\nOZFlIW6iy1dpzsGjwaWTinrDexbl6/+7yAHHty4LAoGAGeiskul1BYK7kboyX5fA\nfrFnc9Jd61743/EWlOyMw1hnSLaQ9tVZqIZq/CLcB2TZSBZ31GpQG+STshgZiOlR\n3fEjyyUrK7Bz2SlnrbqARMFotK/PRGyWdynAJkrX/RxCm2pbrqSU1Jz+W3P1CHSl\nbrdV+MrWEfHJgyjzid7YuHc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "workorderextraction@workorderextraction.iam.gserviceaccount.com",
+  "client_id": "105686008909439880839",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/workorderextraction%40workorderextraction.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

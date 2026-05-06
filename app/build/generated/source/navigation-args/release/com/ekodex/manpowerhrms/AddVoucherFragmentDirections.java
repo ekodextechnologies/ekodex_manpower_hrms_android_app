@@ -1,0 +1,169 @@
+package com.ekodex.manpowerhrms;
+
+import android.os.Bundle;
+import androidx.annotation.NonNull;
+import androidx.navigation.ActionOnlyNavDirections;
+import androidx.navigation.NavDirections;
+import java.lang.IllegalArgumentException;
+import java.lang.Object;
+import java.lang.Override;
+import java.lang.String;
+import java.lang.SuppressWarnings;
+import java.util.HashMap;
+
+public class AddVoucherFragmentDirections {
+  private AddVoucherFragmentDirections() {
+  }
+
+  @NonNull
+  public static NavDirections actionAddVoucherFragmentSelf() {
+    return new ActionOnlyNavDirections(R.id.action_addVoucherFragment_self);
+  }
+
+  @NonNull
+  public static ActionAddVoucherFragmentToVoucherManagementFragment actionAddVoucherFragmentToVoucherManagementFragment(
+      @NonNull String fromDate, @NonNull String toDate) {
+    return new ActionAddVoucherFragmentToVoucherManagementFragment(fromDate, toDate);
+  }
+
+  public static class ActionAddVoucherFragmentToVoucherManagementFragment implements NavDirections {
+    private final HashMap arguments = new HashMap();
+
+    @SuppressWarnings("unchecked")
+    private ActionAddVoucherFragmentToVoucherManagementFragment(@NonNull String fromDate,
+        @NonNull String toDate) {
+      if (fromDate == null) {
+        throw new IllegalArgumentException("Argument \"from_date\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("from_date", fromDate);
+      if (toDate == null) {
+        throw new IllegalArgumentException("Argument \"to_date\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("to_date", toDate);
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionAddVoucherFragmentToVoucherManagementFragment setFromDate(
+        @NonNull String fromDate) {
+      if (fromDate == null) {
+        throw new IllegalArgumentException("Argument \"from_date\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("from_date", fromDate);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionAddVoucherFragmentToVoucherManagementFragment setToDate(@NonNull String toDate) {
+      if (toDate == null) {
+        throw new IllegalArgumentException("Argument \"to_date\" is marked as non-null but was passed a null value.");
+      }
+      this.arguments.put("to_date", toDate);
+      return this;
+    }
+
+    @NonNull
+    @SuppressWarnings("unchecked")
+    public ActionAddVoucherFragmentToVoucherManagementFragment setOpenTab(int openTab) {
+      this.arguments.put("openTab", openTab);
+      return this;
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public Bundle getArguments() {
+      Bundle __result = new Bundle();
+      if (arguments.containsKey("from_date")) {
+        String fromDate = (String) arguments.get("from_date");
+        __result.putString("from_date", fromDate);
+      }
+      if (arguments.containsKey("to_date")) {
+        String toDate = (String) arguments.get("to_date");
+        __result.putString("to_date", toDate);
+      }
+      if (arguments.containsKey("openTab")) {
+        int openTab = (int) arguments.get("openTab");
+        __result.putInt("openTab", openTab);
+      } else {
+        __result.putInt("openTab", 0);
+      }
+      return __result;
+    }
+
+    @Override
+    public int getActionId() {
+      return R.id.action_addVoucherFragment_to_voucherManagementFragment;
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public String getFromDate() {
+      return (String) arguments.get("from_date");
+    }
+
+    @SuppressWarnings("unchecked")
+    @NonNull
+    public String getToDate() {
+      return (String) arguments.get("to_date");
+    }
+
+    @SuppressWarnings("unchecked")
+    public int getOpenTab() {
+      return (int) arguments.get("openTab");
+    }
+
+    @Override
+    public boolean equals(Object object) {
+      if (this == object) {
+          return true;
+      }
+      if (object == null || getClass() != object.getClass()) {
+          return false;
+      }
+      ActionAddVoucherFragmentToVoucherManagementFragment that = (ActionAddVoucherFragmentToVoucherManagementFragment) object;
+      if (arguments.containsKey("from_date") != that.arguments.containsKey("from_date")) {
+        return false;
+      }
+      if (getFromDate() != null ? !getFromDate().equals(that.getFromDate()) : that.getFromDate() != null) {
+        return false;
+      }
+      if (arguments.containsKey("to_date") != that.arguments.containsKey("to_date")) {
+        return false;
+      }
+      if (getToDate() != null ? !getToDate().equals(that.getToDate()) : that.getToDate() != null) {
+        return false;
+      }
+      if (arguments.containsKey("openTab") != that.arguments.containsKey("openTab")) {
+        return false;
+      }
+      if (getOpenTab() != that.getOpenTab()) {
+        return false;
+      }
+      if (getActionId() != that.getActionId()) {
+        return false;
+      }
+      return true;
+    }
+
+    @Override
+    public int hashCode() {
+      int result = 1;
+      result = 31 * result + (getFromDate() != null ? getFromDate().hashCode() : 0);
+      result = 31 * result + (getToDate() != null ? getToDate().hashCode() : 0);
+      result = 31 * result + getOpenTab();
+      result = 31 * result + getActionId();
+      return result;
+    }
+
+    @Override
+    public String toString() {
+      return "ActionAddVoucherFragmentToVoucherManagementFragment(actionId=" + getActionId() + "){"
+          + "fromDate=" + getFromDate()
+          + ", toDate=" + getToDate()
+          + ", openTab=" + getOpenTab()
+          + "}";
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430032196302",
+    "project_id": "hrmsnotify-569ac",
+    "storage_bucket": "hrmsnotify-569ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430032196302:android:5f7d75e60152575dad369f",
+        "android_client_info": {
+          "package_name": "com.example.hrms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXJIEdsBv3wSeTL8U4jMmrxng9tjI4qFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

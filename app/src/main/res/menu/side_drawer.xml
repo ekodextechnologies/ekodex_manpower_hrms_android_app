@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/attendanceFragment"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="Add Attendance" />
+
+    <item
+        android:id="@+id/addNewEmployeeFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Add Employee" />
+    <item
+        android:id="@+id/employeeDirectoryFragment"
+        android:icon="@drawable/ic_baseline_groups_3_24"
+        android:title="Employee List" />
+    <item
+        android:id="@+id/uploadWorkOrderFragment"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Upload Work Order"
+        android:visible="false" />
+    <item
+        android:id="@+id/salarySlipFragment"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        android:title="Download Salary Slip" />
+
+    <item
+        android:id="@+id/bulkAttendanceDownloadFragment"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        android:title="Download Attendance" />
+
+    <item
+        android:id="@+id/supervisorAttendanceFragment"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="View Attendance" />
+
+    <item
+        android:id="@+id/attendanceErrorReportFragment"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="Attendance Error Report" />
+    <item
+        android:id="@+id/leavesManagementFragment"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        android:title="View Leaves" />
+    <item
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="Add Voucher">
+
+        <!-- Submenu -->
+        <menu>
+            <item
+                android:id="@+id/addEmployeeVoucherFragment"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="For Employee" />
+
+            <item
+                android:id="@+id/addVoucherFragment"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="For Gang" />
+
+            <item
+                android:id="@+id/addSiteVoucherFragment"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="For Site/Vendor" />
+
+            <item
+                android:id="@+id/addSplitVoucherFragment"
+                android:icon="@drawable/ic_baseline_add_24"
+                android:title="Split Voucher" />
+
+
+        </menu>
+
+    </item>
+    <group
+        android:id="@+id/third"/>
+    <item
+        android:id="@+id/voucherManagementFragment"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        android:title="View Vouchers" />
+    <item
+        android:id="@+id/voucherSummaryFragment"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        android:title="Vouchers Summary" />
+    <item
+        android:id="@+id/attendanceReportFragment"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        android:title="Attendance Report" />
+    <item
+        android:id="@+id/myProfileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="My Profile" />
+    <group
+        android:id="@+id/second">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Logout" />
+    </group>
+</menu>

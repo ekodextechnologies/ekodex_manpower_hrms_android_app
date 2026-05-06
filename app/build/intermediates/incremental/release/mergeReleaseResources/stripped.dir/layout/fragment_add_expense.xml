@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                  
+                                                        
+
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF6F6" android:tag="layout/fragment_add_expense_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Advance Date"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintStart_toStartOf="@+id/button4" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintStart_toEndOf="@+id/textView71" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName57"
+            app:layout_constraintStart_toEndOf="@+id/textView73" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName58"
+            app:layout_constraintStart_toEndOf="@+id/textView72" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Amount"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName58"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName58" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Remark"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName57"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName57" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/select_date_back"
+            android:fontFamily="@font/gilroy_bold"
+            android:text="Select advance date"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName57"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:gravity="clip_vertical"
+            android:hint="Remark"
+            android:inputType="textMultiLine|textPersonName"
+            android:paddingLeft="18dp"
+            android:paddingTop="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName58" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName58"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="number"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/check_out_button"
+            android:text="Add Expense"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName57"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName57"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName57" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

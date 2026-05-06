@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_bulk_attendance_download.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_bulk_attendance_download.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_new_employ.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_new_employ.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_news.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_news.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_recruitment_post_details.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_recruitment_post_details.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_voucher_details.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_voucher_details.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_supervisor_attendanc.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_supervisor_attendanc.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_salary_slip.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_salary_slip.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_site_voucher.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_site_voucher.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_update_employee_bank_details.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_update_employee_bank_details.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_pending_leave.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_pending_leave.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/activity_forgot_password.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_travel_request.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_travel_request.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_upload_work_order.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_upload_work_order.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_kyc_summary_management.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_kyc_summary_management.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_paid_vouchers.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_paid_vouchers.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_leaves_management.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_leaves_management.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_rejected_leaves.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_rejected_leaves.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_leave_details.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_leave_details.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_update_employee_personal_details.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_update_employee_personal_details.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/activity_main.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_rejected_vouchers.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_rejected_vouchers.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_vouchers.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_vouchers.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_recruitment_posts.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_recruitment_posts.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/activity_login.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_approved_leaves.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_approved_leaves.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_attendance_error_report.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_attendance_error_report.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_events.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_events.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_my_profile.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_my_profile.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_expenses.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_expenses.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_onboard1.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_onboard1.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_onboarding.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_news_details.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_news_details.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_voucher_management.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_voucher_management.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_recruitment_applicant_document.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_recruitment_applicant_document.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_attendance_report.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_attendance_report.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_leave.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_leave.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_onboard2.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_onboard2.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_view_vouchers.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_view_vouchers.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_update_my_bank.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_update_my_bank.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_travel_schedule.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_travel_schedule.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_travel_management.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_travel_management.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_employee_voucher.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_employee_voucher.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_supervisor_attendance.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_supervisor_attendance.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_onboard3.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_onboard3.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/header_layout.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/header_layout.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_kyc_done.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_kyc_done.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_recruitment_applicants.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_recruitment_applicants.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_travel_accomodation.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_travel_accomodation.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_dashboard.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_update_employee_document.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_update_employee_document.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_my_banks.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_my_banks.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_new_bank.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_new_bank.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_holidays.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_holidays.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_employee_directory.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_employee_directory.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_expense.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_expense.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_recruitment_create_post.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_recruitment_create_post.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_approved_vouchers.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_approved_vouchers.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_edit_my_profile.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_edit_my_profile.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_attendance_supervisor.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_attendance_supervisor.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_birthdays.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_birthdays.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_recruitment.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_recruitment.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_edit_job_post.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_edit_job_post.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_attendance.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_attendance.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_travel_report.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_travel_report.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_voucher_summary.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_voucher_summary.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/activity_splash_screen.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_travelcreate_request.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_travelcreate_request.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_edit_voucher.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_edit_voucher.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_employee_details.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_employee_details.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_pending_vouchers.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_pending_vouchers.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_kyc_not_done.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_kyc_not_done.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_split_voucher.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_split_voucher.xml"
+    },
+    {
+        "merged": "com.ekodex.manpowerhrms.app-mergeReleaseResources-62:/layout/fragment_add_voucher.xml",
+        "source": "com.ekodex.manpowerhrms.app-main-64:/layout/fragment_add_voucher.xml"
+    }
+]

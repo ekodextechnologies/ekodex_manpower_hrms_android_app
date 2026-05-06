@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                  
+   
+
+    
+
+           
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF6F6" android:tag="layout/fragment_update_employee_bank_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF6F6">
+
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/check_out_button"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName90" />
+
+        <TextView
+            android:id="@+id/textView209"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Bank Name"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName81"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView221"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Account Holder Name"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName83"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Account No."
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName84"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView223"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="IFSC Code"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName85"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView224"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Address"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName86"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView225"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="State"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName87"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView226"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="City"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName88"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView227"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Bank Micr"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName89"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView228"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Card No."
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName90"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName81" />
+
+        <TextView
+            android:id="@+id/textView220"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName81"
+            app:layout_constraintStart_toEndOf="@+id/textView209" />
+
+        <TextView
+            android:id="@+id/textView229"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName83"
+            app:layout_constraintStart_toEndOf="@+id/textView221" />
+
+        <TextView
+            android:id="@+id/textView230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName84"
+            app:layout_constraintStart_toEndOf="@+id/textView222" />
+
+        <TextView
+            android:id="@+id/textView231"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName85"
+            app:layout_constraintStart_toEndOf="@+id/textView223" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName81"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Bank Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName83"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Account Holder Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName81" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName84"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Account No."
+            android:inputType="number|textPersonName"
+            android:maxLength="14"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName83" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName85"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="IFSC Code"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName84" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName86"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName85" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName87"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="State"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName86" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName88"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="City"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName87" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName89"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Bank Micr"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName88" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName90"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Card No."
+            android:inputType="number|textPersonName"
+            android:maxLength="16"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName89" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+         

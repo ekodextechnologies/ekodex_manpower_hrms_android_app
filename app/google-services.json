@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "600023346316",
+    "project_id": "hrms-notifications-a063b",
+    "storage_bucket": "hrms-notifications-a063b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600023346316:android:6e94234dfac7515253dfa9",
+        "android_client_info": {
+          "package_name": "com.ekodex.employerhrms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ROvKYGpreGD80gh44KPdKvIGi8ewtdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600023346316:android:5ca8b507f205a8b253dfa9",
+        "android_client_info": {
+          "package_name": "com.ekodex.manpowerhrms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ROvKYGpreGD80gh44KPdKvIGi8ewtdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600023346316:android:0d873832dfa8fc4153dfa9",
+        "android_client_info": {
+          "package_name": "com.example.hrms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ROvKYGpreGD80gh44KPdKvIGi8ewtdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "hrms_nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "hrms"
+        ],
+        "host": "voucher",
+        "port": -1,
+        "path": "/",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mDescription": "hrms_nav_graph.xml"
+          },
+          "mSourcePosition": {
+            "mStartLine": 711,
+            "mStartColumn": 8,
+            "mStartOffset": 32955,
+            "mEndLine": 712,
+            "mEndColumn": 39,
+            "mEndOffset": 33004
+          }
+        },
+        "isAutoVerify": false,
+        "action": "android.intent.action.VIEW"
+      }
+    ]
+  }
+]

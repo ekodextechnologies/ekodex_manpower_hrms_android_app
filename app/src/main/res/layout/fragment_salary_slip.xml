@@ -1,0 +1,2447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:id="@+id/salarySlip"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.5"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            tools:context=".SalarySlipFragment">-->
+
+
+        <!--            <View-->
+        <!--                android:id="@+id/view9"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="8dp"-->
+        <!--                android:layout_marginTop="8dp"-->
+        <!--                android:layout_marginEnd="8dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view13"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="3dp"-->
+        <!--                android:layout_marginStart="8dp"-->
+        <!--                android:layout_marginTop="2dp"-->
+        <!--                android:layout_marginEnd="8dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView403" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view15"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="8dp"-->
+        <!--                android:layout_marginTop="4dp"-->
+        <!--                android:layout_marginEnd="8dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView404" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view10"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="8dp"-->
+        <!--                android:layout_marginTop="12dp"-->
+        <!--                android:layout_marginEnd="8dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView426" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view11"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:layout_marginStart="8dp"-->
+        <!--                android:layout_marginTop="8dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view10"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view23"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:layout_marginStart="13dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView426"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view25"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view23"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view28"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view26"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.75"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view23"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view27"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.65"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view24"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:layout_marginEnd="13dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view14"-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView416"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.50"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view18"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/view15"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view16"-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView416"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintHorizontal_bias="0.4"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/view15"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view19"-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView416"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintHorizontal_bias="0.30"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView411"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view21"-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView416"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintHorizontal_bias="0.50"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView411"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view22"-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView416"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintHorizontal_bias="0.85"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView411"-->
+        <!--                app:layout_constraintVertical_bias="0.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view20"-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView416"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintHorizontal_bias="0.20"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView411"-->
+        <!--                app:layout_constraintVertical_bias="1.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view18"-->
+        <!--                android:layout_width="2dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView416"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.6"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/view15"-->
+        <!--                app:layout_constraintVertical_bias="1.0" />-->
+
+        <!--            <View-->
+        <!--                android:id="@+id/view12"-->
+        <!--                android:layout_width="1dp"-->
+        <!--                android:layout_height="0dp"-->
+        <!--                android:layout_marginTop="8dp"-->
+        <!--                android:layout_marginEnd="8dp"-->
+        <!--                android:background="#BFBBBB"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view10"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView401"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="4dp"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="SAI VENTURES"-->
+        <!--                android:textColor="#F44336"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/view9" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView427"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Employee Name:"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view16"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/view15"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView404" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView432"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Vijay Deshmukh"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView433"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView404" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView438"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Emp. Code:"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view14"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view18"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView404" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView442"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="1265"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView406"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view14"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView404" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView429"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Site Name"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view16"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/view15"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView433"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="EKODEX"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view16"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView439"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="EXECUTIVE"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView413"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view14"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView444"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Designation"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/textView439"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView438"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView443"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Employee Name:"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView406"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view14"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view14"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView430"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Month Days"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView409"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view16"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/view15"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView435"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="31"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView409"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view16"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView441"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="ESIC IP"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView409"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view14"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view18"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView446"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="26154984"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView409"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view14"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView428"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="DOJ"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView408"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view16"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/view15"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView434"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="2024-01-03"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView408"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view16"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView440"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="UAN"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView408"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view14"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view18"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView445"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="1235897456"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView408"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView413"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view14"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView431"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Payable Days"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView411"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view16"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/view15"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView436"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="DOB"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView411"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view14"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view18"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView449"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="PAN"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view14"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view18"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView448" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView451"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="center"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="PL"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView412"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view19"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view20"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/view22" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView405"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="o/Bal"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view20"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView412"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView480"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView453"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView452"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView479"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView452"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView451"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView478"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView451"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView451"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView483"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Weekly Offs"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView454"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView453"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView484"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView457"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView454"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView485"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Bank Name"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView455"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView455"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView490"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="2135465498"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView413"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView412"-->
+        <!--                app:layout_constraintHorizontal_bias="1.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView458"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView464"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Earned"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view20"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView412"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView467"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView451"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView451"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView468"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView452"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView452"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView469"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView453"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView452"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView470"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Paid Hol"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view22"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view21"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView472"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Account No."-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView455"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView485"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView473"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="1621654987"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView413"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView490"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView471"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView457"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView454"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView465"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Avail"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view20"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView412"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView477"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Paid Leave"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView454"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView453"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView488"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="IFSC Code"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView472"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView472"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView489"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="1654684654"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView413"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView473"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView486"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/textView472"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView470"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView476"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView453"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView452"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView474"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView451"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView451"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView498"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Earnings"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView418"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView536"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Amount"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView418"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView535"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Deductions"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView418"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView516"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Earned"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView418"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView508"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Payable"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView418"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView499"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Total Earnings"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView425" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView539"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView425" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView531"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Net Salary"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView425" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView530"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView425" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView513"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="30000"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView426"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView425" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView500"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="OT ALLOWANCE"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView425"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView424" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView538"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView425"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView424" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView529"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Total Deductions"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView425"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView424" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView525"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView425"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView424" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView512"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="200"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView425"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="1.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView424"-->
+        <!--                app:layout_constraintVertical_bias="1.0" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView501"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="BONUS"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView424"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView423" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView537"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView424"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView423" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView528"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView424"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView423" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView527"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Advance"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView424"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView423" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView511"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView424"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView423" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView502"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="LWW"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView423"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView422" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView542"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView423"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView422" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView526"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Uniform/ID"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView423"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView422" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView524"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView423"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView422" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView514"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView423"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView422" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView503"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="OTHER ALLOWANCE"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView422"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView421" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView544"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="LWF"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView422"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView421" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView540"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView422"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView421" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView533"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView422"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView421" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView515"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView422"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView421" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView504"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="HRA"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView421"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView420" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView543"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="PT"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView421"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView420" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView541"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView421"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView420" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView532"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView421"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView420" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView510"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView421"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView420" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView506"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="SPL ALLOWANCE"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView420"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView419" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView521"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView420"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView419" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView520"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView420"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView419" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView519"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="ESIC"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView420"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView419" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView517"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView420"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view28"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView419" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView505"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView420"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView419" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView507"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="BASIC + VDA"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView419"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view25"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView420"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView418" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView534"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView419"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view26"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView418" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView523"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="PF"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView419"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view27"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view28"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView418" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView522"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView419"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view24"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view27"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView418" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView509"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="30000"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView419"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view26"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view25"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView418" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView475"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/textView415"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView452"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView451"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView466"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="C/Bal"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view20"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView412"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView497"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="126"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView413"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView489"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView496"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Insurance No."-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView488"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView488"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView495"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView457"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView454"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView494"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Absent Days"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView477"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView453"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView493"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView453"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView452"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView492"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/textView476"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView474"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView491"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="0"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView451"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView451"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView452"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="center"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="SL"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView412"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view16"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view19"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/view22" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView453"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="28.5"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView412"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view21"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view16"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/view22" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView454"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Work Days"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView412"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view22"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view21"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/view22" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView457"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="28.5"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView412"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/textView454"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/view22" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView455"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="Aadhar No"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView412"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view14"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view18"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/view22" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView458"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="984984949"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView412"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView414"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view14"-->
+        <!--                app:layout_constraintTop_toTopOf="@+id/view22" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView450"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="54569856"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/view22"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView416"-->
+        <!--                app:layout_constraintStart_toStartOf="@+id/textView445"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView448" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView448"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="2001-06-14"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView411"-->
+        <!--                app:layout_constraintEnd_toEndOf="@+id/textView410"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view14"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView437"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="start|center_vertical"-->
+        <!--                android:paddingStart="4dp"-->
+        <!--                android:text="28.5"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/textView411"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view18"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view16"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView402"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Ajanta Plaza SECTOR 19 Airoli"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView401" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView403"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginBottom="2dp"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Navi Mumbai - 4000708"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintBottom_toTopOf="@+id/view13"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.5"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView402" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView404"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="4dp"-->
+        <!--                android:fontFamily="@font/gilroy_semibold"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pay Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/view13" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView406"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/view15" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView407"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView406" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView408"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView407" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView409"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView408" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView410"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView409" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView412"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView411" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView413"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView412" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView414"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView413" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView415"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView414" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView416"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView415" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView417"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="8dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView416" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView418"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView417" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView419"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView418" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView420"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView419" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView421"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView420" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView422"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView421" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView424"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView423" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView425"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView424" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView426"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView425" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView423"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginStart="4dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:layout_marginEnd="4dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView422" />-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView411"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="1dp"-->
+        <!--                android:layout_marginTop="14dp"-->
+        <!--                android:background="#BEBABA"-->
+        <!--                android:gravity="center"-->
+        <!--                android:text="Pa Slip For Month July 2025"-->
+        <!--                android:textColor="#000000"-->
+        <!--                android:textSize="8sp"-->
+        <!--                app:layout_constraintEnd_toStartOf="@+id/view12"-->
+        <!--                app:layout_constraintHorizontal_bias="0.0"-->
+        <!--                app:layout_constraintStart_toEndOf="@+id/view11"-->
+        <!--                app:layout_constraintTop_toBottomOf="@+id/textView410" />-->
+
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="8dp"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.5"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/salarySlip">-->
+
+        <!--            <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+        <!--                android:id="@+id/download"-->
+        <!--                android:layout_width="50dp"-->
+        <!--                android:layout_height="50dp"-->
+        <!--                android:layout_marginEnd="16dp"-->
+        <!--                android:clickable="true"-->
+        <!--                android:focusable="true"-->
+        <!--                app:backgroundTint="#F35638"-->
+        <!--                app:fabCustomSize="50dp"-->
+        <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--                app:layout_constraintDimensionRatio="h,1:1"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                app:maxImageSize="25dp"-->
+        <!--                app:srcCompat="@drawable/ic_baseline_file_download_24"-->
+        <!--                app:tint="#FFFFFF" />-->
+
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <!--        <WebView-->
+        <!--            android:id="@+id/webViewPdf"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_marginStart="8dp"-->
+        <!--            android:layout_marginTop="8dp"-->
+        <!--            android:layout_marginEnd="8dp"-->
+        <!--            android:layout_marginBottom="8dp"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.5"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/button2"-->
+        <!--            app:layout_constraintVertical_bias="0.5" />-->
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/login_button_back"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="00-0000"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toStartOf="@+id/download"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/download"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:backgroundTint="#303262"
+            app:fabCustomSize="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/button2"
+            app:layout_constraintDimensionRatio="h,1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button2"
+            app:maxImageSize="25dp"
+            app:srcCompat="@drawable/ic_baseline_file_download_24"
+            app:tint="#FFFFFF" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/salary_slip_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView234" />
+
+        <TextView
+            android:id="@+id/textView234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Total"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <ProgressBar
+            android:id="@+id/progressBar11"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/salary_slip_list"
+            app:layout_constraintStart_toStartOf="@+id/salary_slip_list"
+            app:layout_constraintTop_toTopOf="@+id/salary_slip_list" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/not_available1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/salary_slip_list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/salary_slip_list"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/not_available" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

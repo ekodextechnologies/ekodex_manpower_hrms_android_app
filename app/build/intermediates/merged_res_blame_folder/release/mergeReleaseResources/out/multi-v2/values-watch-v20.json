@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ekodex.manpowerhrms.app-mergeReleaseResources-61:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "D:\\Application Setup\\Gradle\\caches\\transforms-4\\d30cf9f9061f88ddbe79d886b07447a1\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

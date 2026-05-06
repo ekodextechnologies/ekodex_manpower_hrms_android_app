@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF6F6"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FAF6F6">
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Job Ref. No."
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName57"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName57" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Job Title"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName59"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName59" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="-6dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text=" Category"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/tl1"
+                app:layout_constraintStart_toStartOf="@+id/tl1" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Job Location"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName60"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName60" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Total No. Of Posts"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName63"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName63" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Employment Type"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/emp_type"
+                app:layout_constraintStart_toStartOf="@+id/textView100" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Work Approach"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/work_approach"
+                app:layout_constraintStart_toStartOf="@+id/textView105" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Work Experience"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/experince"
+                app:layout_constraintStart_toStartOf="@+id/textView107" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Compensation Range"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/seekBar"
+                app:layout_constraintStart_toStartOf="@+id/textView109" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName57"
+                app:layout_constraintStart_toEndOf="@+id/textView92" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName59"
+                app:layout_constraintStart_toEndOf="@+id/textView97" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView103"
+                app:layout_constraintStart_toEndOf="@+id/textView103" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName60"
+                app:layout_constraintStart_toEndOf="@+id/textView100" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName63"
+                app:layout_constraintStart_toEndOf="@+id/textView121" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView105"
+                app:layout_constraintStart_toEndOf="@+id/textView105" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView107"
+                app:layout_constraintStart_toEndOf="@+id/textView107" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/experince"
+                app:layout_constraintStart_toEndOf="@+id/textView109" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView115"
+                app:layout_constraintStart_toEndOf="@+id/textView115" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName57"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_back"
+                android:ems="10"
+                android:hint="Job Ref. No"
+                android:inputType="textPersonName"
+                android:paddingLeft="13dp"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName59"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_back"
+                android:ems="10"
+                android:hint="Job Title"
+                android:inputType="textPersonName"
+                android:paddingLeft="13dp"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName57" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName60"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_back"
+                android:ems="10"
+                android:hint="Job Location"
+                android:inputType="textPersonName"
+                android:paddingLeft="13dp"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tl1" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName63"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_back"
+                android:ems="10"
+                android:hint="Total No. Of Posts"
+                android:inputType="number|textPersonName"
+                android:maxLength="4"
+                android:paddingLeft="13dp"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName60" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tl1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="0dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="16dp"
+                android:hint="Select Category"
+                android:textColorHint="#969494"
+                app:boxCornerRadiusBottomEnd="8dp"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:boxCornerRadiusTopStart="8dp"
+                app:endIconTint="#626060"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName59">
+
+                <AutoCompleteTextView
+                    android:id="@+id/job_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_text_back"
+                    android:editable="false"
+                    android:freezesText="true"
+                    android:paddingLeft="18dp"
+                    android:popupBackground="@color/white"
+                    android:textColor="#000000"
+                    android:textColorHint="#969494" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/emp_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName63"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full Time" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Part Time" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contract" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/work_approach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emp_type"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On-site" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remote" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/experince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/work_approach"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fresher" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Year" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2-3 Year" />
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4-5 Year" />
+
+
+                <com.google.android.material.chip.Chip
+                    style="@style/chipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8+ Year" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="24dp"
+                android:max="200000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/experince" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#0027FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/check_out_button"
+                android:text="Update"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName72" />
+
+
+            <EditText
+                android:id="@+id/editTextTextPersonName70"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_back"
+                android:ems="10"
+                android:gravity="clip_vertical"
+                android:hint="Job Description"
+                android:inputType="textMultiLine|textPersonName"
+                android:paddingLeft="18dp"
+                android:paddingTop="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView114" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName71"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_back"
+                android:ems="10"
+                android:gravity="clip_vertical"
+                android:hint="Job Responsibilities"
+                android:inputType="textMultiLine|textPersonName"
+                android:paddingLeft="18dp"
+                android:paddingTop="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName70" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName72"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/edit_text_back"
+                android:ems="10"
+                android:gravity="clip_vertical"
+                android:hint="Skills"
+                android:inputType="textMultiLine|textPersonName"
+                android:paddingLeft="18dp"
+                android:paddingTop="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName71" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Job Description"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName70"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName70" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Job Responsibilities"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName71"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName71" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Skills"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName72"
+                app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName72" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName70"
+                app:layout_constraintStart_toEndOf="@+id/textView72" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName71"
+                app:layout_constraintStart_toEndOf="@+id/textView117" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="*"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName72"
+                app:layout_constraintStart_toEndOf="@+id/textView119" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</layout>

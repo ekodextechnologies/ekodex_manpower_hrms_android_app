@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                  
+                                                        
+
+    
+
+           
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF6F6" android:tag="layout/fragment_travel_schedule_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF6F6"
+       >
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/check_out_button"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName67" />
+
+        <TextView
+            android:id="@+id/textView134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Group Size"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+
+        <TextView
+            android:id="@+id/textView162"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/textView134"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView163"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/textView158"
+            app:layout_constraintTop_toTopOf="@+id/textView158" />
+
+        <TextView
+            android:id="@+id/textView164"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintStart_toEndOf="@+id/textView160"
+            app:layout_constraintTop_toTopOf="@+id/textView160" />
+
+        <TextView
+            android:id="@+id/textView165"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintStart_toEndOf="@+id/textView161"
+            app:layout_constraintTop_toTopOf="@+id/textView161" />
+
+        <TextView
+            android:id="@+id/textView167"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintStart_toEndOf="@+id/textView166"
+            app:layout_constraintTop_toTopOf="@+id/textView166" />
+
+        <TextView
+            android:id="@+id/textView158"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Traveller1 Name"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName60"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName60"
+            app:layout_constraintTop_toBottomOf="@+id/groupSize" />
+
+        <TextView
+            android:id="@+id/textView159"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Traveller1 Name"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName60"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName60"
+            app:layout_constraintTop_toBottomOf="@+id/groupSize" />
+
+        <TextView
+            android:id="@+id/textView160"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Select From Travel Date"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintStart_toStartOf="@+id/button4" />
+
+        <TextView
+            android:id="@+id/textView161"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Select To Travel Date"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintStart_toStartOf="@+id/button5" />
+
+        <TextView
+            android:id="@+id/textView166"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Destination"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName66"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName66" />
+
+        <TextView
+            android:id="@+id/textView168"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Mode Of Transportation"
+            android:textColor="#FF0000"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName67"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName67" />
+
+        <RadioGroup
+            android:id="@+id/groupSize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@+id/textView134"
+            app:layout_constraintTop_toBottomOf="@+id/textView134">
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Individual" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName60"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Traveller1 Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/groupSize" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName66"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Destination"
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName67"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Mode Of Transportation "
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName66" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/select_date_back"
+            android:fontFamily="@font/gilroy_bold"
+            android:text="Select from travel date"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName60" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/select_date_back"
+            android:fontFamily="@font/gilroy_bold"
+            android:text="Select to travel date"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="130dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="#0027FF"
+            app:layout_constraintEnd_toStartOf="@+id/textView116"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView111"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="130dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="#0027FF"
+            app:layout_constraintEnd_toStartOf="@+id/textView169"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/textView116"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="1"
+            android:textColor="#0027FF"
+            app:layout_constraintEnd_toStartOf="@+id/view4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="2"
+            android:textColor="#F44336"
+            app:layout_constraintEnd_toStartOf="@+id/view5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view4"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/textView169"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#0027FF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view5"
+            tools:layout_editor_absoluteY="8dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+         

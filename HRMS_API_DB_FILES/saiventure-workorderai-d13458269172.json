@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "saiventure-workorderai",
+  "private_key_id": "d13458269172bd37d5c39ff9e1234c224d96ab54",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOesk4pPPyV2QG\nalVBLXFWKhKSJndNZNc6a9jv2D42Ii7PNtxKT53pUqyNb2iVdG4vx4nWFt0IxDW/\nkLoVhUelJtkAhbfJ1obA+YQR+5j+/rjmQNPb3sinQLoHFlsIK9tFK7gr2tO0uNs7\nvO6/Rrl35qRKDtVWAb//DfXY+T7syM4Q8bzWVWq3rq7i6iOXLVUj6GRvCsGEIYfD\n/Kl0+XuV1QULaBPTvXolRlFg4ID/AS4P6e2/ZL/w3svPSP5npSBcsoamoE7Hj95l\nJYoBDbfHgl7HO83OwywnC1U7+cQStgqlzEHCs2Q9z178e+sAKRQCPThsoGddvDRM\nlFgSHH/ZAgMBAAECggEAGF0kcoDDUMKXWMryA6J2M8e74H81t14JZ/k7FEUIxTg4\nHAcSDBo0LMiOuBMv7Oe7yztBNFAHFZ5aZb/w9zJee3o3o6BDqSc9SBbBKuKMYXVi\n0bePUCvL8zFX6hdtFywen906aoFUFwhzhQtkhBE3OBLQ6rSwn2kOM808x9UUQ9nx\nLOcvvoo4ABnTr72JfClZ3jlmtFTXM0vEuBoKfp+tXQTB/T7yzt6O7707yMx8F4Ny\nmT62WhhGAdrijI8bVvX9aKPKn4FHsiDudvLSr+o2yKcGqe8FoWB31wnA14+lOr77\nLqqKDcRO+tmz/Zc1dAI065g1Cz5qdA96JjODqsA8AQKBgQDuRPGXCETsMzBOP4mG\nw7R19D+/rD0jxM1U1OACsfvHIPsxPpIGt4j8rqQrxjDbpjoprU+SxZS1bxOlTuLl\nDofWVVAN5Mhk+R1PV8MthqvwKIXb01+Z15PpGILURuDTi8loNOBsA8IcBehWl9Jv\nJJ4FejmuyoXe2JkpiszpYKHUAQKBgQDd2D7XqKZD4zCxWkV/L90Ppf90LUC6KsUj\nV5Blxby1h63aI7ZW8Fq/oy2Maa/aLm53s6+Vn1am/shV55m/0K9FbmtfSTfyTPwQ\nF8Psa5Zr598zGAVAEH1YANqZI1P61IntlDUPAIoHn1XGtWe7ppZmyBl/bjBoohKH\nRvPPGdPL2QKBgQDA0fJgs0RzkYlKCYkWElJ8Ekl0p8Jiq+Uu/Ya7J6YFo98kHuq1\nnNmzAvHAqwbm+kKfb62xrUuG+HkBkjF0BKpQ/YFnfPnfHOpnRzKgKRgDpgeNuiTn\nrtn4DOnzN9jB2aIIPqJPR0tSukUnrn2RjCSFckAz/5kOmmJ4h+cEBjtwAQKBgQCe\nHj4UShFPe8O99OBp2byPJbqgnIxw5IEkQooZ78kj/bOtMh0JdEDKLE0Pslhzgvqb\neMfiNfJ2DkzN5cgRDnWOYDhJbw9gNPzHn5i2jqxk9pyAd1NuqRIdwmYMFkEKG6i/\nXA5BRhoberaRbcSk3ASA94gs6mW4fiQEpU6rQvZRaQKBgBdoG88IlzmQeANazfUX\neDNqG3XRY4GSgSlFTaoDFL53KrEwICoh3YGuEseQvnfzY0oRxJ3A2FMffojcolgp\n1ePALFKgtDLxedgaAmet/lR1U8oD0XnZxUU5JCE6MYG3GlLFdheTP3fMWYhJWmDo\niTq+eiICAvTVUh55PJmhATrh\n-----END PRIVATE KEY-----\n",
+  "client_email": "saiventure-workorder-docs@saiventure-workorderai.iam.gserviceaccount.com",
+  "client_id": "100130116809346963558",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/saiventure-workorder-docs%40saiventure-workorderai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/attendance_history_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="#FFF6F6"
+    app:cardBackgroundColor="#F4F2F2">
+
+    <TextView
+        android:id="@+id/textView300"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFF6F6"
+        android:fontFamily="@font/gilroy_semibold"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio=""
+        app:layout_constraintEnd_toStartOf="@+id/textView399"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView307"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView308"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFF6F6"
+        android:fontFamily="@font/gilroy_semibold"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView399"
+        app:layout_constraintEnd_toStartOf="@+id/textView324"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView399"
+        app:layout_constraintTop_toTopOf="@+id/textView399"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView324"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFF6F6"
+        android:fontFamily="@font/gilroy_semibold"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView308"
+        app:layout_constraintEnd_toStartOf="@+id/textView466"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView308"
+        app:layout_constraintTop_toTopOf="@+id/textView308" />
+
+    <TextView
+        android:id="@+id/textView466"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFF6F6"
+        android:fontFamily="@font/gilroy_semibold"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView324"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView324"
+        app:layout_constraintTop_toTopOf="@+id/textView324" />
+
+    <TextView
+        android:id="@+id/textView399"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFF6F6"
+        android:fontFamily="@font/gilroy_semibold"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView300"
+        app:layout_constraintEnd_toStartOf="@+id/textView308"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView300"
+        app:layout_constraintTop_toTopOf="@+id/textView300" />
+
+    <TextView
+        android:id="@+id/textView307"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFF6F6"
+        android:fontFamily="@font/gilroy_semibold"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView300"
+        app:layout_constraintEnd_toStartOf="@+id/textView300"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView300" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

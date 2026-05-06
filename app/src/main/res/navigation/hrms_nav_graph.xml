@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hrms_nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.ekodex.manpowerhrms.Dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_employeeDirectoryFragment"
+            app:destination="@id/employeeDirectoryFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment" />
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_voucherManagementFragment"
+            app:destination="@id/voucherManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment" />
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_attendanceFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment"
+            app:destination="@id/attendanceFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_holidaysFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment"
+            app:destination="@id/holidaysFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_leavesManagementFragment"
+            app:destination="@id/leavesManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_birthdaysFragment"
+            app:destination="@id/birthdaysFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_eventsFragment"
+            app:destination="@id/eventsFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_expensesFragment"
+            app:destination="@id/expensesFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment"/>
+        <action
+            android:id="@+id/action_dashboardFragment_to_kycSummaryManagementFragment"
+            app:destination="@id/kycSummaryManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/kycSummaryManagementFragment"/>
+        <action
+            android:id="@+id/action_dashboardFragment_to_newsFragment"
+            app:destination="@id/newsFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_recruitmentFragment"
+            app:destination="@id/recruitmentFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_dashboardFragment_to_travelManagementFragment"
+            app:destination="@id/travelManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment"/>
+        <action
+            android:id="@+id/action_dashboardFragment_to_attendanceSupervisorFragment"
+            app:destination="@id/attendanceSupervisorFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_supervisorAttendanceFragment"
+            app:destination="@id/supervisorAttendanceFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_dashboardFragment_to_supervisorAttendanceDetailsFragment"
+            app:destination="@id/supervisorAttendanceDetailsFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.ekodex.manpowerhrms.Profile.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile">
+        <action
+            android:id="@+id/action_myProfileFragment_to_editMyProfileFragment"
+            app:destination="@id/editMyProfileFragment" />
+
+        <action
+            android:id="@+id/action_myProfileFragment_to_myBanksFragment"
+            app:destination="@id/myBanksFragment"
+            app:popUpTo="@id/myProfileFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/editMyProfileFragment"
+        android:name="com.ekodex.manpowerhrms.Profile.EditMyProfileFragment"
+        android:label="Edit My Profile"
+        tools:layout="@layout/fragment_edit_my_profile" >
+        <action
+            android:id="@+id/action_editMyProfileFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/attendanceFragment"
+        android:name="com.ekodex.manpowerhrms.Attendance.AttendanceFragment"
+        android:label="Add Attendance"
+        tools:layout="@layout/fragment_attendance" />
+    <fragment
+        android:id="@+id/employeeDirectoryFragment"
+        android:name="com.ekodex.manpowerhrms.Employee_Directory.EmployeeDirectoryFragment"
+        android:label="Employee Directory"
+        tools:layout="@layout/fragment_employee_directory" >
+        <action
+            android:id="@+id/action_employeeDirectoryFragment_to_employeeDetailsFragment"
+            app:destination="@id/employeeDetailsFragment"
+            app:popUpTo="@id/employeeDirectoryFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <argument
+            android:name="status"
+            app:argType="string" />
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/holidaysFragment"
+        android:name="com.ekodex.manpowerhrms.Holidays.HolidaysFragment"
+        android:label="Holiday's"
+        tools:layout="@layout/fragment_holidays" />
+    <fragment
+        android:id="@+id/leavesManagementFragment"
+        android:name="com.ekodex.manpowerhrms.Leaves_Management.LeavesManagementFragment"
+        android:label="Leaves"
+        tools:layout="@layout/fragment_leaves_management" >
+        <action
+            android:id="@+id/action_leavesManagementFragment_to_addLeaveFragment2"
+            app:destination="@id/addLeaveFragment"
+            app:popUpTo="@id/leavesManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_leavesManagementFragment_to_leavesDetailFragment"
+            app:destination="@id/leaveDetailsFragment"
+            app:popUpTo="@id/leavesManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+
+        <argument
+            android:name="openTab"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/pendingLeaveFragment"
+        android:name="com.ekodex.manpowerhrms.Leaves_Pending.PendingLeaveFragment"
+        android:label="Pending Leaves"
+        tools:layout="@layout/fragment_pending_leave" >
+        <action
+            android:id="@+id/action_pendingLeaveFragment_to_addLeaveFragment"
+            app:destination="@id/addLeaveFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/pendingLeaveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/approvedLeavesFragment"
+        android:name="com.ekodex.manpowerhrms.Leaves_Approved.ApprovedLeavesFragment"
+        android:label="Approved Leaves"
+        tools:layout="@layout/fragment_approved_leaves" >
+        <action
+            android:id="@+id/action_approvedLeavesFragment_to_addLeaveFragment"
+            app:destination="@id/addLeaveFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/approvedLeavesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addLeaveFragment"
+        android:name="com.ekodex.manpowerhrms.Leave_Add.AddLeaveFragment"
+        android:label="Apply Leave"
+        tools:layout="@layout/fragment_add_leave">
+        <action
+            android:id="@+id/action_addLeaveFragment_to_leavesManagementFragment"
+            app:destination="@id/leavesManagementFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/birthdaysFragment"
+        android:name="com.ekodex.manpowerhrms.Birthdays.BirthdaysFragment"
+        android:label="Birthday's"
+        tools:layout="@layout/fragment_birthdays" />
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.ekodex.manpowerhrms.Events.EventsFragment"
+        android:label="Events"
+        tools:layout="@layout/fragment_events" />
+    <fragment
+        android:id="@+id/expensesFragment"
+        android:name="com.ekodex.manpowerhrms.Expenses.ExpensesFragment"
+        android:label="Expenses"
+        tools:layout="@layout/fragment_expenses" >
+        <action
+            android:id="@+id/action_expensesFragment_to_addExpenseFragment"
+            app:destination="@id/addExpenseFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/expensesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.ekodex.manpowerhrms.ExpensesAdd.AddExpenseFragment"
+        android:label="Add Expense"
+        tools:layout="@layout/fragment_add_expense" >
+        <action
+            android:id="@+id/action_addExpenseFragment_to_expensesFragment"
+            app:destination="@id/expensesFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/rejectedLeavesFragment"
+        android:name="com.ekodex.manpowerhrms.Leaves_Rejected.RejectedLeavesFragment"
+        android:label="Rejected Leaves"
+        tools:layout="@layout/fragment_rejected_leaves" >
+        <action
+            android:id="@+id/action_rejectedLeavesFragment_to_addLeaveFragment"
+            app:destination="@id/addLeaveFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/rejectedLeavesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.ekodex.manpowerhrms.News.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_newsFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/newsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.ekodex.manpowerhrms.Onboard.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" />
+    <fragment
+        android:id="@+id/onboard1Fragment"
+        android:name="com.ekodex.manpowerhrms.Onboard.Onboard1Fragment"
+        android:label="fragment_onboard1"
+        tools:layout="@layout/fragment_onboard1" />
+    <fragment
+        android:id="@+id/onboard2Fragment"
+        android:name="com.ekodex.manpowerhrms.Onboard.Onboard2Fragment"
+        android:label="fragment_onboard2"
+        tools:layout="@layout/fragment_onboard2" />
+    <fragment
+        android:id="@+id/onboard3Fragment"
+        android:name="com.ekodex.manpowerhrms.Onboard.Onboard3Fragment"
+        android:label="fragment_onboard3"
+        tools:layout="@layout/fragment_onboard3" />
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.News_Details.NewsDetailsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news_details" >
+        <argument
+            android:name="keyword"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/recruitmentFragment"
+        android:name="com.ekodex.manpowerhrms.Recruitment.RecruitmentFragment"
+        android:label="Recruitment"
+        tools:layout="@layout/fragment_recruitment" >
+        <action
+            android:id="@+id/action_recruitmentFragment_to_recruitmentCreatePostFragment"
+            app:destination="@id/recruitmentCreatePostFragment"
+            app:popUpTo="@id/recruitmentFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_recruitmentFragment_to_recruitmentApplicantDocumentFragment"
+            app:destination="@id/recruitmentApplicantDocumentFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/recruitmentFragment" />
+        <action
+            android:id="@+id/action_recruitmentFragment_to_editJobPostFragment"
+            app:destination="@id/editJobPostFragment"
+            app:popUpTo="@id/recruitmentFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/recruitmentPostsFragment"
+        android:name="com.ekodex.manpowerhrms.Recruitment_Posts.RecruitmentPostsFragment"
+        android:label="Posts"
+        tools:layout="@layout/fragment_recruitment_posts" />
+    <fragment
+        android:id="@+id/recruitmentApplicantsFragment"
+        android:name="com.ekodex.manpowerhrms.Recruitment_Applicants.RecruitmentApplicantsFragment"
+        android:label="Applicants"
+        tools:layout="@layout/fragment_recruitment_applicants" />
+    <fragment
+        android:id="@+id/recruitmentCreatePostFragment"
+        android:name="com.ekodex.manpowerhrms.Recruitment_Post_Create.RecruitmentCreatePostFragment"
+        android:label="Create Post"
+        tools:layout="@layout/fragment_recruitment_create_post" >
+        <action
+            android:id="@+id/action_recruitmentCreatePostFragment_to_recruitmentPostDetailsFragment"
+            app:destination="@id/recruitmentPostDetailsFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/recruitmentCreatePostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recruitmentPostDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.RecruitmentPostDetailsFragment"
+        android:label="Add Post Details"
+        tools:layout="@layout/fragment_recruitment_post_details" >
+        <argument
+            android:name="lastid"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_recruitmentPostDetailsFragment_to_recruitmentCreatePostFragment"
+            app:destination="@id/recruitmentCreatePostFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/recruitmentApplicantDocumentFragment"
+        android:name="com.ekodex.manpowerhrms.RecruitmentApplicantDocumentFragment"
+        android:label="Document"
+        tools:layout="@layout/fragment_recruitment_applicant_document">
+        <argument
+            android:name="resumeLink"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/editJobPostFragment"
+        android:name="com.ekodex.manpowerhrms.EditJobPostFragment"
+        android:label="Job Post"
+        tools:layout="@layout/fragment_edit_job_post" >
+        <argument
+            android:name="postId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_editJobPostFragment_to_recruitmentFragment"
+            app:destination="@id/recruitmentFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/travelManagementFragment"
+        android:name="com.ekodex.manpowerhrms.Travel_Management.TravelManagementFragment"
+        android:label="Travel"
+        tools:layout="@layout/fragment_travel_management" >
+        <action
+            android:id="@+id/action_travelManagementFragment_to_travelcreateRequestFragment"
+            app:destination="@id/travelcreateRequestFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/travelManagementFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/travelRequestFragment"
+        android:name="com.ekodex.manpowerhrms.Travel_Requests.TravelRequestFragment"
+        android:label="Requests"
+        tools:layout="@layout/fragment_travel_request" />
+    <fragment
+        android:id="@+id/travelReportFragment"
+        android:name="com.ekodex.manpowerhrms.TravelReportFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_travel_report" />
+    <fragment
+        android:id="@+id/travelScheduleFragment"
+        android:name="com.ekodex.manpowerhrms.TravelScheduleFragment"
+        android:label="Add Travel Schedule"
+        tools:layout="@layout/fragment_travel_schedule">
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_travelScheduleFragment_to_travelAccomodationFragment"
+            app:destination="@id/travelAccomodationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/travelcreateRequestFragment"
+        android:name="com.ekodex.manpowerhrms.TravelcreateRequestFragment"
+        android:label="Travel Information"
+        tools:layout="@layout/fragment_travelcreate_request" >
+        <action
+            android:id="@+id/action_travelcreateRequestFragment_to_travelScheduleFragment"
+            app:destination="@id/travelScheduleFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/travelAccomodationFragment"
+        android:name="com.ekodex.manpowerhrms.TravelAccomodationFragment"
+        android:label="Travel Accomodation"
+        tools:layout="@layout/fragment_travel_accomodation" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_travelAccomodationFragment_to_travelManagementFragment"
+            app:destination="@id/travelManagementFragment"
+            app:popUpTo="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/attendanceSupervisorFragment"
+        android:name="com.ekodex.manpowerhrms.AttendanceSupervisorFragment"
+        android:label="Add Attendance"
+        tools:layout="@layout/fragment_attendance_supervisor" >
+        <action
+            android:id="@+id/action_attendanceSupervisorFragment_to_addNewEmployeeFragment"
+            app:destination="@id/addNewEmployeeFragment"
+            app:popUpTo="@id/attendanceSupervisorFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_attendanceSupervisorFragment_self"
+            app:destination="@id/attendanceSupervisorFragment"
+            app:popUpTo="@id/attendanceSupervisorFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewEmployeeFragment"
+        android:name="com.ekodex.manpowerhrms.AddNewEmployeeFragment"
+        android:label="Add New Employee"
+        tools:layout="@layout/fragment_add_new_employ" >
+        <action
+            android:id="@+id/action_addNewEmployeeFragment_to_attendanceSupervisorFragment"
+            app:destination="@id/attendanceSupervisorFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/employeeDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.EmployeeDetailsFragment"
+        android:label="Employee Details"
+        tools:layout="@layout/fragment_employee_details" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_employeeDetailsFragment_to_updateEmployeeBankDetailsFragment"
+            app:destination="@id/updateEmployeeBankDetailsFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/employeeDetailsFragment" />
+        <action
+            android:id="@+id/action_employeeDetailsFragment_to_updateEmployeePersonalDetailsFragment"
+            app:destination="@id/updateEmployeePersonalDetailsFragment"
+            app:popUpTo="@id/employeeDetailsFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_employeeDetailsFragment_to_updateEmployeeDocumentFragment"
+            app:destination="@id/updateEmployeeDocumentFragment"
+            app:popUpTo="@id/employeeDetailsFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/updateEmployeeBankDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.UpdateEmployeeBankDetailsFragment"
+        android:label="Update Bank Details"
+        tools:layout="@layout/fragment_update_employee_bank_details" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_updateEmployeeBankDetailsFragment_to_employeeDetailsFragment"
+            app:destination="@id/employeeDetailsFragment"
+            app:popUpTo="@id/employeeDirectoryFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/updateEmployeePersonalDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.UpdateEmployeePersonalDetailsFragment"
+        android:label="Update Personal Details"
+        tools:layout="@layout/fragment_update_employee_personal_details" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_updateEmployeePersonalDetailsFragment_to_employeeDetailsFragment"
+            app:destination="@id/employeeDetailsFragment"
+            app:popUpTo="@id/employeeDirectoryFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/supervisorAttendanceFragment"
+        android:name="com.ekodex.manpowerhrms.SupervisorAttendanceFragment"
+        android:label="Attendance"
+        tools:layout="@layout/fragment_supervisor_attendance" >
+        <action
+            android:id="@+id/action_supervisorAttendanceFragment_self"
+            app:destination="@id/supervisorAttendanceFragment"
+            app:popUpTo="@id/dashboardFragment" />
+        <argument
+            android:name="status"
+            app:argType="string" />
+        <argument
+            android:name="from"
+            app:argType="string" />
+        <argument
+            android:name="to"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/attendanceReportFragment"
+        android:name="com.ekodex.manpowerhrms.AttendanceReportFragment"
+        android:label="Attendance Report"
+        tools:layout="@layout/fragment_attendance_report" >
+        <action
+            android:id="@+id/action_attendanceReportFragment_to_supervisorAttendanceDetailsFragment"
+            app:destination="@id/supervisorAttendanceDetailsFragment"
+            app:popUpTo="@id/attendanceReportFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/supervisorAttendanceDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.SupervisorAttendanceDetailsFragment"
+        android:label="Attendance"
+        tools:layout="@layout/fragment_supervisor_attendanc" >
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+        <argument
+            android:name="emp_code"
+            app:argType="string" />
+        <argument
+            android:name="status"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_supervisorAttendanceDetailsFragment_to_attendanceReportFragment"
+            app:destination="@id/attendanceReportFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addVoucherFragment"
+        android:name="com.ekodex.manpowerhrms.AddVoucherFragment"
+        android:label="Add Voucher"
+        tools:layout="@layout/fragment_add_voucher" >
+        <action
+            android:id="@+id/action_addVoucherFragment_self"
+            app:destination="@id/addVoucherFragment"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_addVoucherFragment_to_voucherManagementFragment"
+            app:destination="@id/voucherManagementFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/vouchersFragment"
+        android:name="com.ekodex.manpowerhrms.VouchersFragment"
+        android:label="Vouchers"
+        tools:layout="@layout/fragment_vouchers" />
+    <fragment
+        android:id="@+id/voucherManagementFragment"
+        android:name="com.ekodex.manpowerhrms.VoucherManagementFragment"
+        android:label="Vouchers"
+        tools:layout="@layout/fragment_voucher_management" >
+        <deepLink
+            app:uri="hrms://voucher" />
+        <action
+            android:id="@+id/action_voucherManagementFragment_to_addVoucherFragment"
+            app:destination="@id/addVoucherFragment"
+            app:popUpTo="@id/voucherManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+
+        <action
+            android:id="@+id/action_voucherManagementFragment_to_addEmployeeVoucherFragment"
+            app:destination="@id/addEmployeeVoucherFragment"
+            app:popUpTo="@id/voucherManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+
+        <action
+            android:id="@+id/action_voucherManagementFragment_to_addSiteVoucherFragment"
+            app:destination="@id/addSiteVoucherFragment"
+            app:popUpTo="@id/voucherManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+
+        <action
+            android:id="@+id/action_voucherManagementFragment_to_addSplitVoucherFragment"
+            app:destination="@id/addSplitVoucherFragment"
+            app:popUpTo="@id/voucherManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+
+
+        <action
+            android:id="@+id/action_voucherManagementFragment_to_viewVouchersFragment"
+            app:destination="@id/viewVouchersFragment"
+            app:popUpTo="@id/voucherManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_voucherManagementFragment_to_editVoucherFragment"
+            app:destination="@id/editVoucherFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <action
+            android:id="@+id/action_voucherManagementFragment_self"
+            app:destination="@id/voucherManagementFragment"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_voucherManagementFragment_to_VoucherDetailsFragment"
+            app:destination="@id/voucherDetailsFragment"
+            app:popUpTo="@id/voucherManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+
+        <argument
+            android:name="openTab"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/pendingVouchersFragment"
+        android:name="com.ekodex.manpowerhrms.PendingVouchersFragment"
+        android:label="Pending Vouchers"
+        tools:layout="@layout/fragment_pending_vouchers">
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/approvedVouchersFragment"
+        android:name="com.ekodex.manpowerhrms.ApprovedVouchersFragment"
+        android:label="Approved Vouchers"
+        tools:layout="@layout/fragment_approved_vouchers">
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/rejectedVouchersFragment"
+        android:name="com.ekodex.manpowerhrms.RejectedVouchersFragment"
+        android:label="Rejected Vouchers"
+        tools:layout="@layout/fragment_rejected_vouchers">
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewVouchersFragment"
+        android:name="com.ekodex.manpowerhrms.ViewVouchersFragment"
+        android:label="Voucher Details"
+        tools:layout="@layout/fragment_view_vouchers">
+        <argument
+            android:name="voucher_no"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/editVoucherFragment"
+        android:name="com.ekodex.manpowerhrms.EditVoucherFragment"
+        android:label="Edit voucher"
+        tools:layout="@layout/fragment_edit_voucher" >
+        <argument
+            android:name="voucher_no"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_editVoucherFragment_to_voucherManagementFragment"
+            app:destination="@id/voucherManagementFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/updateEmployeeDocumentFragment"
+        android:name="com.ekodex.manpowerhrms.UpdateEmployeeDocumentFragment"
+        android:label="Update Document Details"
+        tools:layout="@layout/fragment_update_employee_document" >
+        <action
+            android:id="@+id/action_updateEmployeeDocumentFragment_to_employeeDetailsFragment"
+            app:destination="@id/employeeDetailsFragment"
+            app:popUpTo="@id/employeeDirectoryFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+        <argument
+            android:name="id"
+            app:argType="string" />
+
+        <argument
+            android:name="aadhar"
+            app:argType="string" />
+        <argument
+            android:name="pan"
+            app:argType="string" />
+        <argument
+            android:name="uan"
+            app:argType="string" />
+        <argument
+            android:name="pf"
+            app:argType="string" />
+        <argument
+            android:name="esis"
+            app:argType="string" />
+        <argument
+            android:name="passport"
+            app:argType="string" />
+
+        <argument
+            android:name="fname"
+            app:argType="string" />
+
+        <argument
+            android:name="lname"
+            app:argType="string" />
+
+        <argument
+            android:name="uan_date"
+            app:argType="string" />
+
+        <argument
+            android:name="esis_date"
+            app:argType="string" />
+
+        <argument
+            android:name="passport_date"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/voucherSummaryFragment"
+        android:name="com.ekodex.manpowerhrms.VoucherSummaryFragment"
+        android:label="Voucher Summary"
+        tools:layout="@layout/fragment_voucher_summary" />
+    <fragment
+        android:id="@+id/salarySlipFragment"
+        android:name="com.ekodex.manpowerhrms.SalarySlipFragment"
+        android:label="Salary Slip"
+        tools:layout="@layout/fragment_salary_slip" />
+    <fragment
+        android:id="@+id/kycSummaryManagementFragment"
+        android:name="com.ekodex.manpowerhrms.KycSummaryManagementFragment"
+        android:label="Kyc Summary"
+        tools:layout="@layout/fragment_kyc_summary_management" >
+        <action
+            android:id="@+id/action_kycSummaryManagementFragment_to_employeeDetailsFragment"
+            app:destination="@id/employeeDetailsFragment"
+            app:popUpTo="@id/kycSummaryManagementFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"/>
+        <argument
+            android:name="type"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/kycDoneFragment"
+        android:name="com.ekodex.manpowerhrms.KycDoneFragment"
+        android:label="fragment_kyc_done"
+        tools:layout="@layout/fragment_kyc_done" >
+        <argument
+            android:name="type"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/kycNotDoneFragment"
+        android:name="com.ekodex.manpowerhrms.KycNotDoneFragment"
+        android:label="fragment_kyc_not_done"
+        tools:layout="@layout/fragment_kyc_not_done" >
+        <argument
+            android:name="type"
+            app:argType="string" />
+    </fragment>
+    <argument
+        android:name="type"
+        app:argType="string" />
+    <fragment
+        android:id="@+id/uploadWorkOrderFragment"
+        android:name="com.ekodex.manpowerhrms.UploadWorkOrderFragment"
+        android:label="Upload"
+        tools:layout="@layout/fragment_upload_work_order" />
+    <fragment
+        android:id="@+id/voucherDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.VoucherDetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_voucher_details" >
+        <argument android:name="voucher_no"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/paidVouchersFragment"
+        android:name="com.ekodex.manpowerhrms.PaidVouchersFragment"
+        android:label="fragment_paid_vouchers"
+        tools:layout="@layout/fragment_paid_vouchers" >
+        <argument
+            android:name="from_date"
+            app:argType="string" />
+        <argument
+            android:name="to_date"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/myBanksFragment"
+        android:name="com.ekodex.manpowerhrms.MyBanksFragment"
+        android:label="My Banks"
+        tools:layout="@layout/fragment_my_banks" >
+        <action
+            android:id="@+id/action_to_myBanksFragment"
+            app:destination="@id/myBanksFragment"
+            app:popUpTo="@id/myBanksFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_myBanksFragment_to_addNewBanksFragment"
+            app:destination="@id/addNewBankFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/myBanksFragment" />
+
+        <action
+            android:id="@+id/action_myBanksFragment_to_updateMyBankFragment"
+            app:destination="@id/updateMyBankFragment"
+            app:enterAnim="@anim/right_to_center"
+            app:exitAnim="@anim/center_to_left"
+            app:popEnterAnim="@anim/left_to_center"
+            app:popExitAnim="@anim/center_to_right"
+            app:popUpTo="@id/myBanksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewBankFragment"
+        android:name="com.ekodex.manpowerhrms.addNewBankFragment"
+        android:label="Add Bank"
+        tools:layout="@layout/fragment_add_new_bank" >
+
+        <action
+            android:id="@+id/action_addNewBanksFragment_to_myBanksFragment"
+            app:destination="@id/myBanksFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"
+            app:popUpTo="@id/myBanksFragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/updateMyBankFragment"
+        android:name="com.ekodex.manpowerhrms.updateMyBankFragment"
+        android:label="Update Bank Details"
+        tools:layout="@layout/fragment_update_my_bank">
+        <action
+            android:id="@+id/action_updateMyBankFragment_to_myBanksFragment"
+            app:destination="@id/myBanksFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"
+            app:popUpTo="@id/myBanksFragment"
+            app:popUpToInclusive="true"/>
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEmployeeVoucherFragment"
+        android:name="com.ekodex.manpowerhrms.AddEmployeeVoucherFragment"
+        android:label="Add Voucher"
+        tools:layout="@layout/fragment_add_employee_voucher">
+
+        <action
+            android:id="@+id/action_addEmployeeVoucherFragment_self"
+            app:destination="@id/addEmployeeVoucherFragment"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_addEmployeeVoucherFragment_to_voucherManagementFragment"
+            app:destination="@id/voucherManagementFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/addSiteVoucherFragment"
+        android:name="com.ekodex.manpowerhrms.AddSiteVoucherFragment"
+        android:label="Add Voucher"
+        tools:layout="@layout/fragment_add_site_voucher" >
+        <action
+            android:id="@+id/action_addSiteVoucherFragment_self"
+            app:destination="@id/addSiteVoucherFragment"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_addSiteVoucherFragment_to_voucherManagementFragment"
+            app:destination="@id/voucherManagementFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addSplitVoucherFragment"
+        android:name="com.ekodex.manpowerhrms.AddSplitVoucherFragment"
+        android:label="Add Voucher"
+        tools:layout="@layout/fragment_add_split_voucher">
+        <action
+            android:id="@+id/action_addSplitVoucherFragment_self"
+            app:destination="@id/addSplitVoucherFragment"
+            app:popUpTo="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_addSplitVoucherFragment_to_voucherManagementFragment"
+            app:destination="@id/voucherManagementFragment"
+            app:popUpTo="@id/dashboardFragment"
+            app:enterAnim="@anim/left_to_center"
+            app:exitAnim="@anim/center_to_right"
+            app:popEnterAnim="@anim/right_to_center"
+            app:popExitAnim="@anim/center_to_left"/>
+    </fragment>
+    <fragment
+        android:id="@+id/bulkAttendanceDownloadFragment"
+        android:name="com.ekodex.manpowerhrms.BulkAttendanceDownloadFragment"
+        android:label="Download"
+        tools:layout="@layout/fragment_bulk_attendance_download" />
+    <fragment
+        android:id="@+id/leaveDetailsFragment"
+        android:name="com.ekodex.manpowerhrms.LeaveDetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_leave_details" >
+        <argument android:name="leave_id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/attendanceErrorReportFragment"
+        android:name="com.ekodex.manpowerhrms.AttendanceErrorReportFragment"
+        android:label="Attendance Report"
+        tools:layout="@layout/fragment_attendance_error_report">
+        <argument
+            android:name="status"
+            app:argType="string" />
+        <argument
+            android:name="from"
+            app:argType="string" />
+        <argument
+            android:name="to"
+            app:argType="string" />
+    </fragment>
+</navigation>

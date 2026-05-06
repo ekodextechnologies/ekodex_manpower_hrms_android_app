@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF6F6">
+
+
+        <TextView
+            android:id="@+id/textView188"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="-12dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Employee Name"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/multipleItemSelectionSpinner"
+            app:layout_constraintStart_toStartOf="@+id/multipleItemSelectionSpinner"
+            app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+        <TextView
+            android:id="@+id/textView197"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView188"
+            app:layout_constraintStart_toEndOf="@+id/textView188" />
+
+        <TextView
+            android:id="@+id/textView198"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView196"
+            app:layout_constraintStart_toEndOf="@+id/textView196" />
+
+        <TextView
+            android:id="@+id/textView314"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="*"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/button24"
+            app:layout_constraintStart_toEndOf="@+id/textView313" />
+
+        <TextView
+            android:id="@+id/textView196"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="-4dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Attendance Status"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/tl2"
+            app:layout_constraintStart_toStartOf="@+id/tl2" />
+
+        <TextView
+            android:id="@+id/textView486"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Check In Time"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/checkin_time_edit"
+            app:layout_constraintStart_toStartOf="@+id/checkin_time_edit" />
+
+        <TextView
+            android:id="@+id/textView488"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Check Out Time"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/checkin_time_edit"
+            app:layout_constraintStart_toStartOf="@+id/checkout_time_edit" />
+
+        <TextView
+            android:id="@+id/textView313"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Select Attendance  Date!!"
+            android:textColor="#FF0000"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toTopOf="@+id/button24"
+            app:layout_constraintStart_toStartOf="@+id/button24" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/check_out_button"
+            android:text="SAVE ATTENDANCE"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/button28"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkin_time_edit" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/check_out_button"
+            android:text="Mark Left"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button20"
+            app:layout_constraintTop_toBottomOf="@+id/textView203" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName77"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:ems="10"
+            android:hint="Add New Status "
+            android:inputType="textPersonName"
+            android:paddingLeft="13dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tl2" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/select_date_back"
+            android:fontFamily="@font/gilroy_bold"
+            android:text="checck-out time"
+            android:textSize="15sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button19"
+            app:layout_constraintTop_toTopOf="@+id/button19" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/select_date_back"
+            android:fontFamily="@font/gilroy_bold"
+            android:text="check-in time"
+            android:textSize="15sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/button18"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName77" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/check_out_button"
+            android:padding="8dp"
+            android:text="+ Add New Employee"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/check_out_button"
+            android:padding="8dp"
+            android:text="☑ Mark All Attendance"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/button17"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Select Employee Name"
+            android:textColorHint="#969494"
+            android:visibility="gone"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:endIconTint="#626060"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button24">
+
+            <AutoCompleteTextView
+                android:id="@+id/emp_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_back"
+                android:editable="true"
+                android:freezesText="true"
+                android:paddingLeft="18dp"
+                android:popupBackground="@color/white"
+                android:textColor="#000000"
+                android:textColorHint="#969494"
+                android:visibility="visible" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tl2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Select Attendance Status"
+            android:textColorHint="#969494"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            app:endIconTint="#626060"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/multipleItemSelectionSpinner">
+
+            <AutoCompleteTextView
+                android:id="@+id/attendance_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_back"
+                android:editable="true"
+                android:freezesText="true"
+                android:paddingLeft="18dp"
+                android:popupBackground="@color/white"
+                android:textColor="#000000"
+                android:textColorHint="#969494" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView203"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="P-Present | A-Absent | W-Weekly Off | PP - Overtime | PPP - Overtime | HF - Half Day | D - Day | N - Night "
+            android:textColor="#FF0000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName77" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/attendance_button"
+            android:text="Attendance Date"
+            android:textColor="#000000"
+            android:visibility="visible"
+            app:cornerRadius="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+        <com.androidbuts.multispinnerfilter.MultiSpinnerSearch
+            android:id="@+id/multipleItemSelectionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/attendance_button"
+            android:visibility="visible"
+            app:hintText="Select Emplyee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tl1" />
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/button20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:tint="#626060"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/multipleItemSelectionSpinner"
+            app:layout_constraintEnd_toEndOf="@+id/multipleItemSelectionSpinner"
+            app:layout_constraintTop_toTopOf="@+id/multipleItemSelectionSpinner"
+            app:srcCompat="@drawable/ic_baseline_arrow_drop_down_24" />
+
+        <!-- Check-in Time -->
+        <TextView
+            android:id="@+id/checkin_time_edit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/edit_text_back"
+            android:gravity="center_vertical"
+            android:hint="Check In Time"
+            android:paddingStart="16dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintEnd_toStartOf="@+id/checkout_time_edit"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView203" />
+
+        <!-- Check-out Time -->
+        <TextView
+            android:id="@+id/checkout_time_edit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_text_back"
+            android:gravity="center_vertical"
+            android:hint="Check Out Time"
+            android:paddingStart="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#969494"
+            app:layout_constraintBottom_toBottomOf="@+id/checkin_time_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/checkin_time_edit" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

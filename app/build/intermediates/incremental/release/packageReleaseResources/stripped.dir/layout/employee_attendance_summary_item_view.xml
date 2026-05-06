@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView479"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView480"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView479"
+        app:layout_constraintTop_toTopOf="@id/textView479"/>
+
+    <TextView
+        android:id="@+id/textView482"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView480"
+        app:layout_constraintTop_toTopOf="@id/textView480"/>
+
+    <TextView
+        android:id="@+id/textView483"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView482"
+        app:layout_constraintTop_toTopOf="@id/textView482"/>
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView483"
+        app:layout_constraintTop_toTopOf="@id/textView483"/>
+
+    <TextView
+        android:id="@+id/textView490"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView62"
+        app:layout_constraintTop_toTopOf="@id/textView62"/>
+
+    <TextView
+        android:id="@+id/textView491"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView490"
+        app:layout_constraintTop_toTopOf="@id/textView490"/>
+
+    <TextView
+        android:id="@+id/textView492"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView491"
+        app:layout_constraintTop_toTopOf="@id/textView491"/>
+
+    <TextView
+        android:id="@+id/textView493"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_border_back"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@id/textView492"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textView492"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

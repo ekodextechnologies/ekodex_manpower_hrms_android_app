@@ -1,0 +1,66 @@
+com.ekodex.manpowerhrms.app-coordinatorlayout-1.1.0-0 D:\Application Setup\Gradle\caches\transforms-4\02263f49f2b88098cfcde734dbfaa050\transformed\coordinatorlayout-1.1.0\res
+com.ekodex.manpowerhrms.app-jetified-activity-1.8.0-1 D:\Application Setup\Gradle\caches\transforms-4\07f02560c90fefdead5005b2e3cbb71f\transformed\jetified-activity-1.8.0\res
+com.ekodex.manpowerhrms.app-jetified-savedstate-1.2.1-2 D:\Application Setup\Gradle\caches\transforms-4\0bb8c745e8bbdd422f936163718f9b96\transformed\jetified-savedstate-1.2.1\res
+com.ekodex.manpowerhrms.app-jetified-firebase-common-21.0.0-3 D:\Application Setup\Gradle\caches\transforms-4\0da37eac0c3b9a785a6bed8d9b93ec49\transformed\jetified-firebase-common-21.0.0\res
+com.ekodex.manpowerhrms.app-core-1.13.1-4 D:\Application Setup\Gradle\caches\transforms-4\0f2331a1d3d2b020f186695744289af7\transformed\core-1.13.1\res
+com.ekodex.manpowerhrms.app-navigation-runtime-ktx-2.7.7-5 D:\Application Setup\Gradle\caches\transforms-4\182500f1707cb5e774137d81a5ad53fb\transformed\navigation-runtime-ktx-2.7.7\res
+com.ekodex.manpowerhrms.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-6 D:\Application Setup\Gradle\caches\transforms-4\1a52eb9807d86c2107c67cbbb169bb5b\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.ekodex.manpowerhrms.app-jetified-firebase-messaging-24.0.1-7 D:\Application Setup\Gradle\caches\transforms-4\1bf4a78712ce4c70fa8d1f2b7507fa9d\transformed\jetified-firebase-messaging-24.0.1\res
+com.ekodex.manpowerhrms.app-navigation-ui-ktx-2.7.7-8 D:\Application Setup\Gradle\caches\transforms-4\20951f9d152f8f27eec5dd08517f04ac\transformed\navigation-ui-ktx-2.7.7\res
+com.ekodex.manpowerhrms.app-navigation-fragment-ktx-2.7.7-9 D:\Application Setup\Gradle\caches\transforms-4\210d0e01876b72f60141c6d45288c80f\transformed\navigation-fragment-ktx-2.7.7\res
+com.ekodex.manpowerhrms.app-jetified-window-1.0.0-10 D:\Application Setup\Gradle\caches\transforms-4\21be1d401e9fe08752190e681a7e4370\transformed\jetified-window-1.0.0\res
+com.ekodex.manpowerhrms.app-slidingpanelayout-1.2.0-11 D:\Application Setup\Gradle\caches\transforms-4\32dd763eef5e9ac64e8460c943bbd521\transformed\slidingpanelayout-1.2.0\res
+com.ekodex.manpowerhrms.app-jetified-circleimageview-3.1.0-12 D:\Application Setup\Gradle\caches\transforms-4\377e47635723269cfbbca94579b2ef60\transformed\jetified-circleimageview-3.1.0\res
+com.ekodex.manpowerhrms.app-navigation-fragment-2.7.7-13 D:\Application Setup\Gradle\caches\transforms-4\378aaf1ac305c7cd07a38baa6b0660bc\transformed\navigation-fragment-2.7.7\res
+com.ekodex.manpowerhrms.app-jetified-savedstate-ktx-1.2.1-14 D:\Application Setup\Gradle\caches\transforms-4\416496aec3cc348343560d11a83f913c\transformed\jetified-savedstate-ktx-1.2.1\res
+com.ekodex.manpowerhrms.app-jetified-annotation-experimental-1.4.0-15 D:\Application Setup\Gradle\caches\transforms-4\42a9781497d64be77a3d1a898861716e\transformed\jetified-annotation-experimental-1.4.0\res
+com.ekodex.manpowerhrms.app-jetified-lifecycle-livedata-core-ktx-2.6.2-16 D:\Application Setup\Gradle\caches\transforms-4\5152f98e3266d45a15812e58c6566d7d\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\res
+com.ekodex.manpowerhrms.app-jetified-circleindicator-2.1.6-17 D:\Application Setup\Gradle\caches\transforms-4\521d5d9db650c58865b750b578b69d87\transformed\jetified-circleindicator-2.1.6\res
+com.ekodex.manpowerhrms.app-jetified-appcompat-resources-1.6.1-18 D:\Application Setup\Gradle\caches\transforms-4\5384c634857c756fecd882b8c5f2b408\transformed\jetified-appcompat-resources-1.6.1\res
+com.ekodex.manpowerhrms.app-drawerlayout-1.1.1-19 D:\Application Setup\Gradle\caches\transforms-4\58b652d13157874f54a74f644549fc2c\transformed\drawerlayout-1.1.1\res
+com.ekodex.manpowerhrms.app-jetified-imagepicker-2.1-20 D:\Application Setup\Gradle\caches\transforms-4\5a7012e4b15a359c83f33f1903391070\transformed\jetified-imagepicker-2.1\res
+com.ekodex.manpowerhrms.app-jetified-core-common-2.0.3-21 D:\Application Setup\Gradle\caches\transforms-4\5ab3aa670ff78415a3fe55e8ed91cf96\transformed\jetified-core-common-2.0.3\res
+com.ekodex.manpowerhrms.app-jetified-play-services-basement-18.3.0-22 D:\Application Setup\Gradle\caches\transforms-4\610271e8ec5ebfa5e3fe642e0449ca20\transformed\jetified-play-services-basement-18.3.0\res
+com.ekodex.manpowerhrms.app-lifecycle-livedata-core-2.6.2-23 D:\Application Setup\Gradle\caches\transforms-4\65e7ba5370cc769aa579652a5c6f4af3\transformed\lifecycle-livedata-core-2.6.2\res
+com.ekodex.manpowerhrms.app-recyclerview-1.1.0-24 D:\Application Setup\Gradle\caches\transforms-4\6e41fac9af6c74f741f2b3fb4d7f2f4d\transformed\recyclerview-1.1.0\res
+com.ekodex.manpowerhrms.app-jetified-ucrop-2.2.8-25 D:\Application Setup\Gradle\caches\transforms-4\73c476142043c7e03afc9895312d7170\transformed\jetified-ucrop-2.2.8\res
+com.ekodex.manpowerhrms.app-transition-1.5.0-26 D:\Application Setup\Gradle\caches\transforms-4\80006f720cd2b6a85e8b0516c624eec4\transformed\transition-1.5.0\res
+com.ekodex.manpowerhrms.app-fragment-1.6.2-27 D:\Application Setup\Gradle\caches\transforms-4\813db5bc04397ca7da3bd800bc3a15f6\transformed\fragment-1.6.2\res
+com.ekodex.manpowerhrms.app-jetified-activity-ktx-1.8.0-28 D:\Application Setup\Gradle\caches\transforms-4\8277e60abc442c1973bd28e590cfbae6\transformed\jetified-activity-ktx-1.8.0\res
+com.ekodex.manpowerhrms.app-jetified-core-ktx-1.13.1-29 D:\Application Setup\Gradle\caches\transforms-4\87f6e783b31f66dff8cad4062c2a7f3e\transformed\jetified-core-ktx-1.13.1\res
+com.ekodex.manpowerhrms.app-jetified-fragment-ktx-1.6.2-30 D:\Application Setup\Gradle\caches\transforms-4\88e733b5fea069a1891fcc495abc318c\transformed\jetified-fragment-ktx-1.6.2\res
+com.ekodex.manpowerhrms.app-constraintlayout-2.1.4-31 D:\Application Setup\Gradle\caches\transforms-4\8a962caa1ee92c9027ae6bef8bde5796\transformed\constraintlayout-2.1.4\res
+com.ekodex.manpowerhrms.app-databinding-runtime-8.5.2-32 D:\Application Setup\Gradle\caches\transforms-4\8e005d5ec3cfa27e3e94205db83dbf28\transformed\databinding-runtime-8.5.2\res
+com.ekodex.manpowerhrms.app-databinding-adapters-8.5.2-33 D:\Application Setup\Gradle\caches\transforms-4\8e35acae31effd581e34645fe5e83f23\transformed\databinding-adapters-8.5.2\res
+com.ekodex.manpowerhrms.app-jetified-MultiSelectSpinner-master-SNAPSHOT-34 D:\Application Setup\Gradle\caches\transforms-4\9046287ad1c01f022b1eaabad177eaa0\transformed\jetified-MultiSelectSpinner-master-SNAPSHOT\res
+com.ekodex.manpowerhrms.app-jetified-startup-runtime-1.1.1-35 D:\Application Setup\Gradle\caches\transforms-4\98de6be9297c655d0ea2cbb18a7809cf\transformed\jetified-startup-runtime-1.1.1\res
+com.ekodex.manpowerhrms.app-navigation-common-2.7.7-36 D:\Application Setup\Gradle\caches\transforms-4\bd0d4e4dae60f1cc02cd4ed22c2b3096\transformed\navigation-common-2.7.7\res
+com.ekodex.manpowerhrms.app-jetified-viewpager2-1.0.0-37 D:\Application Setup\Gradle\caches\transforms-4\c0aac41eaa1c8e1180c728c75890beda\transformed\jetified-viewpager2-1.0.0\res
+com.ekodex.manpowerhrms.app-jetified-glide-4.16.0-38 D:\Application Setup\Gradle\caches\transforms-4\c0d5786aad039c08d59917291f0e285e\transformed\jetified-glide-4.16.0\res
+com.ekodex.manpowerhrms.app-jetified-emoji2-views-helper-1.2.0-39 D:\Application Setup\Gradle\caches\transforms-4\c11f3b402335f1cecca536e570676453\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.ekodex.manpowerhrms.app-jetified-lifecycle-runtime-ktx-2.6.2-40 D:\Application Setup\Gradle\caches\transforms-4\c9098fda6134f0591ded98233b44c410\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.ekodex.manpowerhrms.app-cardview-1.0.0-41 D:\Application Setup\Gradle\caches\transforms-4\ca9ccdfb4e8b03511271e9cafb7cfafa\transformed\cardview-1.0.0\res
+com.ekodex.manpowerhrms.app-material-1.12.0-42 D:\Application Setup\Gradle\caches\transforms-4\cae5ee247ca2f662362da5def4a38be7\transformed\material-1.12.0\res
+com.ekodex.manpowerhrms.app-jetified-lifecycle-service-2.6.2-43 D:\Application Setup\Gradle\caches\transforms-4\cefa032bac10345901768158ebb87065\transformed\jetified-lifecycle-service-2.6.2\res
+com.ekodex.manpowerhrms.app-lifecycle-livedata-2.6.2-44 D:\Application Setup\Gradle\caches\transforms-4\d182746cc9a462317fd1a6d0093d7c44\transformed\lifecycle-livedata-2.6.2\res
+com.ekodex.manpowerhrms.app-lifecycle-runtime-2.6.2-45 D:\Application Setup\Gradle\caches\transforms-4\d201e66d306fb2505a21bfb41587c63f\transformed\lifecycle-runtime-2.6.2\res
+com.ekodex.manpowerhrms.app-appcompat-1.6.1-46 D:\Application Setup\Gradle\caches\transforms-4\d30cf9f9061f88ddbe79d886b07447a1\transformed\appcompat-1.6.1\res
+com.ekodex.manpowerhrms.app-jetified-lottie-6.3.0-47 D:\Application Setup\Gradle\caches\transforms-4\d4f4952fb666576409f8aa941f447030\transformed\jetified-lottie-6.3.0\res
+com.ekodex.manpowerhrms.app-core-runtime-2.2.0-48 D:\Application Setup\Gradle\caches\transforms-4\d900e8a29e1bad354ea776e49e916c57\transformed\core-runtime-2.2.0\res
+com.ekodex.manpowerhrms.app-jetified-play-services-base-18.1.0-49 D:\Application Setup\Gradle\caches\transforms-4\daf7311d05939ae0997435e2287d1ca3\transformed\jetified-play-services-base-18.1.0\res
+com.ekodex.manpowerhrms.app-navigation-ui-2.7.7-50 D:\Application Setup\Gradle\caches\transforms-4\dc02676fc963fec4f1959c0ac3c7e139\transformed\navigation-ui-2.7.7\res
+com.ekodex.manpowerhrms.app-navigation-common-ktx-2.7.7-51 D:\Application Setup\Gradle\caches\transforms-4\e20862b09e09733f165d44c54203ab1a\transformed\navigation-common-ktx-2.7.7\res
+com.ekodex.manpowerhrms.app-jetified-lifecycle-viewmodel-ktx-2.6.2-52 D:\Application Setup\Gradle\caches\transforms-4\e6e662588f7280f104996d62810c504c\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\res
+com.ekodex.manpowerhrms.app-navigation-runtime-2.7.7-53 D:\Application Setup\Gradle\caches\transforms-4\ee1677c22175eb15874fb8ecb2bbe1dd\transformed\navigation-runtime-2.7.7\res
+com.ekodex.manpowerhrms.app-jetified-lifecycle-process-2.6.2-54 D:\Application Setup\Gradle\caches\transforms-4\f1a457e118f5584a35a305b5201676c9\transformed\jetified-lifecycle-process-2.6.2\res
+com.ekodex.manpowerhrms.app-jetified-emoji2-1.2.0-55 D:\Application Setup\Gradle\caches\transforms-4\f90f5c333bdb8c381578cc96b4107e06\transformed\jetified-emoji2-1.2.0\res
+com.ekodex.manpowerhrms.app-lifecycle-viewmodel-2.6.2-56 D:\Application Setup\Gradle\caches\transforms-4\f9f160f0e0f2fd4920e31aef21a06a38\transformed\lifecycle-viewmodel-2.6.2\res
+com.ekodex.manpowerhrms.app-jetified-profileinstaller-1.3.0-57 D:\Application Setup\Gradle\caches\transforms-4\fa86980c994de51f273bd769277290b2\transformed\jetified-profileinstaller-1.3.0\res
+com.ekodex.manpowerhrms.app-pngs-58 D:\Projects\HRMS\app\build\generated\res\pngs\release
+com.ekodex.manpowerhrms.app-res-59 D:\Projects\HRMS\app\build\generated\res\processReleaseGoogleServices
+com.ekodex.manpowerhrms.app-resValues-60 D:\Projects\HRMS\app\build\generated\res\resValues\release
+com.ekodex.manpowerhrms.app-packageReleaseResources-61 D:\Projects\HRMS\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.ekodex.manpowerhrms.app-packageReleaseResources-62 D:\Projects\HRMS\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.ekodex.manpowerhrms.app-release-63 D:\Projects\HRMS\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.ekodex.manpowerhrms.app-main-64 D:\Projects\HRMS\app\src\main\res
+com.ekodex.manpowerhrms.app-release-65 D:\Projects\HRMS\app\src\release\res
